@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+<body>
+    <div id="container">
+
+        <div id="student-form">
+
+            <div>
+                <div>First Name</div>
+                <input id="fName" type="text" />
+            </div>
+            
+            <div>
+                <div>First LastName</div>
+                <input id="lName" type="text" />
+            </div>
+
+            <div>
+                <div>Email</div>
+                <input id="email" type="text" />
+            </div>
+
+            <div>
+                <div>Address</div>
+                <input id="address" type="text" />
+            </div>
+
+            <button type="submit" 
+            id="submit-btn"
+             onclick="handleSubmit()">Submit</button>
+
+        </div>
+   
+
+        <div id="students-table" >
+            <table id="student-table">
+                <tr>
+                    <th>First Name</th>
+                    <th>First LastName</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                
+                </tr>
+              
+
+            </table>
+        </div>
+
+    </div>
+    
+</body>
+<script src="./scripts.js"></script>
+</html>

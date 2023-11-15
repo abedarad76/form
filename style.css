@@ -1,0 +1,28 @@
+#student-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: end;
+}
+
+#submit-btn{
+    height: 25px;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:collapse ;
+    width: 100%;
+    margin-top: 20px;
+}
+
+td,th{
+
+    border:1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){
+    background-color: rgb(227, 227, 227);
+}
