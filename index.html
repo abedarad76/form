@@ -20,7 +20,7 @@
             
             <div>
                 <div>First LastName</div>
-                <input id="lName" type="text" />
+                <input id="lName" type="text" onkeydown="validateEmail(event)" />
             </div>
 
             <div>
@@ -32,6 +32,8 @@
                 <div>Address</div>
                 <input id="address" type="text" />
             </div>
+
+            <p id="p"></p>
 
             <button type="submit" 
             id="submit-btn"
